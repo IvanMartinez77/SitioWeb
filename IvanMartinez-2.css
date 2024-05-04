@@ -1,0 +1,63 @@
+/* Estilos básicos */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffeead; /* Amarillo claro vibrante */
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #ff6f69; /* Rojo coral brillante */
+}
+
+p {
+    color: #ffcc5c; /* Amarillo dorado llamativo */
+}
+
+/* Estilo con la fuente "Jaro" */
+.jaro-custom {
+    font-family: 'Jaro', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Estilos de la cabecera */
+header {
+    background-color: #ff6f69; /* Rojo coral brillante */
+    padding: 10px 0; /* 10px arriba y abajo, 0px a los lados */
+    border-radius: 15px; /* Esquinas redondas */
+    width: 50%; /* Ancho del 50% del contenedor padre */
+    margin: 0 auto; /* Centrar horizontalmente */
+    display: flex; /* Usar Flexbox */
+    justify-content: center; /* Centrar contenido horizontalmente */
+    align-items: center; /* Centrar contenido verticalmente */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #ffeead; /* Amarillo claro vibrante */
+    transition: color 0.3s ease; /* Transición de color */
+    font-family: 'Jaro', sans-serif; /* Aplicar fuente Jaro */
+    font-size: 24px; /* Aumentar el tamaño de fuente */
+}
+
+.nav-link:hover {
+    color: #ffcc5c; /* Amarillo dorado llamativo al pasar el ratón */
+}
